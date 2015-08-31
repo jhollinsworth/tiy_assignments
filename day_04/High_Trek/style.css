@@ -1,0 +1,280 @@
+.wrapper {
+  margin: 0 auto;
+  width: 500px;
+  height: 3114px;
+  border: 2pt solid black;
+}
+
+.header {
+  height: 302px;
+  background-color: #212736;
+  padding: 16px 16px 0 16px;
+  margin: 0 0 28px 0;
+}
+
+.nav {
+  height: 46px;
+}
+
+#logo {
+  float: left;
+  margin-right: 108px;
+  margin-left: 15px;
+}
+
+.menu {
+  float: left;
+  margin-top: 14px;
+  margin-left: 40px;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+#search {
+  float: left; 
+  margin-top: 14px;
+  margin-left: 40px;
+  margin-right: -35px; 
+}
+
+h1, h3 {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-size: 54px;
+  line-height: 12px;
+  margin-top: 65px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 32px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+article {
+  width: 88%;
+  margin: auto;
+}
+
+.story-1 {
+  height: 390px;
+}
+
+h2 {
+  font-size: 28px;
+  text-align: left;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: #212736;
+  line-height: 28px;
+  margin: 0;
+}
+
+#bio-photo-sm img {
+  border-radius: 50%;
+  max-height: 32px;
+  max-width: 32px;
+  margin-top: 7px;
+}
+
+#bio-photo-sm {
+  overflow: hidden;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#byline-sm {
+  font-size: 12px;
+  text-align: left;
+  vertical-align: middle;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  margin: 0 0 0 16px;
+  display: inline-block;
+}
+
+.essay-1, .essay-2, .essay-3 {
+  text-align: left;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: #212736;
+  line-height: 28px;
+}
+
+.essay-1 {
+  margin-top: 56px;
+}
+
+.photo img {
+  max-height: 210px;
+  max-width: 216px;
+  background-color: #A39E9A;
+  margin-top: 32px;
+  display: inline-block;
+}
+
+.one img {
+  margin-left: 33px;
+  float: left;
+}
+
+.two img {
+  margin-left: 11px;
+}
+
+.story-2 {
+  height: 474px;
+  margin-top: 33px;
+  margin-bottom: 94px;
+}
+
+blockquote {
+  text-align: left;
+  vertical-align: middle;
+  font-size: 21px;
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  line-height: 33px;
+  color: #887964;
+  margin-top: 56;
+  border-left: 1px solid #000;
+  padding-left: 30px;
+}
+
+.essay-3 {
+  margin-top: 56;
+}
+
+/*.bio {
+  height: 212px;
+  width: 88%;
+  background-color: #A39E9A;
+  margin: auto;
+}*/
+
+#bio-photo img {
+  border-radius: 50%;
+}
+
+#bio-photo {
+   width: 150px;
+   margin: 0 auto;
+}
+
+#byline {
+  height: 14px;
+  background-color: #534F4C;
+  margin-top: 24px;
+}
+
+.social-link {
+  height: 170px;
+  width: 88%;
+  margin-top: 42px;
+  margin-left: 31px;
+}
+
+.social-link p {
+  font-size: 21px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: #FFF;
+  margin: 7px 0 0 0;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+
+#facebook {
+  height: 33%;
+  background-color: #405997;
+}
+
+#instagram {
+  height: 33%;
+  background-color: #427298;
+}
+
+#twitter {
+  height: 33%;
+  background-color: #5DACEA;
+}
+
+#featured {
+  font-size: 22px;
+  text-align: left;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: #212736;
+  margin-top: 70px;
+  margin-bottom: -10px;
+}
+
+.featured-article-1, .featured-article-2, .featured-article-3 {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  text-align: left;
+  color: #FFF;
+  padding: 38px 90px 0 40px;
+  height: 216px;
+  width: 88%;
+  background-color: #A39E9A;
+  margin-top: 40px;
+  margin-left: 31px;
+  box-sizing: border-box;
+}
+
+.featured-article-1 {
+	background-image: url("images/bluberries.jpg");
+}
+
+.featured-article-2 {
+	background-image: url("images/san_francisco.jpg");
+}
+
+.featured-article-3 {
+	background-image: url("images/woods.jpg");
+}
+
+footer {
+  height: 196px;
+  background-color: #212736;
+  margin-top: 39px;
+  padding-top: 44px;
+  box-sizing: border-box;
+}
+
+.logo-lockup {
+  margin-left: 145px;
+}
+
+#menu-bottom {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#logo-lg {
+  margin-left: 84px;
+}
+
+#copyright {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  margin-top: 12px;
+  margin-left: 40px;
+  padding-top: 4px;
+}

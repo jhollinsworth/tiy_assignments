@@ -1,0 +1,37 @@
+a {
+	text-decoration: none;
+	color: #00934A;
+}
+
+h2 {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 38px;
+	color: #336600;
+}
+.name {
+	width: 518px;
+	margin: auto;
+}
+.intro {
+	font-family: 'BenchNine', sans-serif;
+	font-size: 18px;
+	color: #A35200;
+	width: 600px;
+	border: 6px solid;
+	border-color: #A35200;
+	padding-top: 10px;
+	padding-right: 14px;
+	padding-bottom: 10px;
+	padding-left: 18px;
+	border-radius: 10%;
+	display: block;
+	margin: auto;
+}
+h6 {
+	text-align: center;
+	color: #00934A;
+}
+.wood_border {
+	height: 24px;
+	background-image: url('http://www.vectordiary.com/isd_tutorials/003_wood_grain/wood_grain.gif');
+}
