@@ -1,0 +1,573 @@
+.wrapper {
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  padding: 16px 16px 36px 16px;
+  margin: 0 0 28px 0;
+}
+
+.nav {
+  height: 46px;
+}
+
+#logo {
+  float: left;
+  margin-right: 108px;
+  margin-left: 15px;
+}
+
+.menu {
+  float: left;
+  margin-top: 4px;
+  margin-left: 40px;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+}
+
+.menu a:link {
+  color: #FFF;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: red;
+}
+
+.menu a:active {
+  color: yellow;
+}
+
+.menu a:visited {
+  color: #FFF;
+}
+
+#search {
+  float: left; 
+  margin-top: 4px;
+  margin-left: 40px;
+  margin-right: -35px; 
+}
+
+h1, h3 {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-size: 54px;
+  line-height: 12px;
+  margin-top: 65px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 24px;
+  line-height: 32px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+article {
+  width: 88%;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 36px;
+  margin-left: auto;
+}
+
+h2 {
+  font-size: 28px;
+  text-align: left;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: #212736;
+  line-height: 28px;
+  margin: 0;
+}
+
+#bio-photo-sm img {
+  border-radius: 50%;
+  max-height: 32px;
+  max-width: 32px;
+  margin-top: 7px;
+}
+
+#bio-photo-sm {
+  overflow: hidden;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#byline-sm {
+  font-size: 12px;
+  text-align: left;
+  vertical-align: middle;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  margin: 5px 0 0 10px;
+  display: inline-block;
+}
+
+.essay-1, .essay-2, .essay-3 {
+  text-align: left;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: #212736;
+  line-height: 28px;
+}
+
+.essay-1 {
+  margin-top: 42px;
+}
+
+.photo {
+  margin-top: 21px;
+  display: inline-block;
+}
+
+.photo img {
+  max-height: 212px;
+  max-width: 220px;
+}
+
+.one img {
+  float: left;
+}
+
+.two img {
+  margin-left: 11px;
+}
+
+.essay-2 {
+  margin-top: 30px;
+}
+
+blockquote {
+  text-align: left;
+  vertical-align: middle;
+  font-size: 21px;
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  line-height: 33px;
+  color: #887964;
+  margin-top: 48px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  border-left: 1px solid #000;
+  padding-left: 30px;
+}
+
+.essay-3 {
+  margin-top: 48;
+}
+
+.dividing-rule {
+  height: 1px;
+  width: 88%;
+  background-color: 000;
+  margin: 0 auto;
+}
+
+.bio {
+  width: 88%;
+  margin: auto;
+}
+
+#bio-photo img {
+  border-radius: 50%;
+}
+
+#bio-photo {
+   width: 150px;
+   margin-top: 48px;
+   margin-right: auto;
+   margin-bottom: 0;
+   margin-left: auto;
+}
+
+#byline {
+  margin-top: 20px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+#name {
+  font-size: 21px;
+  margin: 0;
+}
+
+#Lennon-desc {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+}
+
+.social-link {
+  height: 170px;
+  width: 88%;
+  margin-top: 42px;
+  margin-right: auto;
+  margin-bottom: 48px;
+  margin-left: auto;
+}
+
+.social-link p {
+  font-size: 21px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: #FFF;
+  margin: 7px 0 0 0;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+
+.social-link a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#facebook {
+  height: 33%;
+  background-color: #405997;
+}
+
+#instagram {
+  height: 33%;
+  background-color: #427298;
+}
+
+#twitter {
+  height: 33%;
+  background-color: #5DACEA;
+}
+
+.featured {
+  width: 88%;
+  font-size: 22px;
+  text-align: left;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: #212736;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-bottom: -10px;
+  margin-left: auto;
+}
+
+.featured a {
+  text-decoration: none;
+}
+
+.featured-article-1, .featured-article-2, .featured-article-3 {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  text-align: left;
+  color: #FFF;
+  padding: 38px 90px 0 40px;
+  height: 216px;
+  background-color: #A39E9A;
+  display: block;
+  margin: 36 auto;
+  box-sizing: border-box;
+}
+
+.featured-article-1 {
+	background-image: url("images/bluberries.jpg");
+  background-size: cover;
+}
+
+.featured-article-2 {
+	background-image: url("images/san_francisco.jpg");
+  background-size: cover;
+}
+
+.featured-article-3 {
+	background-image: url("images/woods.jpg");
+  background-size: cover;
+}
+
+footer {
+  height: 196px;
+  background-color: #212736;
+  margin-top: 39px;
+  padding-top: 44px;
+  box-sizing: border-box;
+}
+
+.logo-lockup {
+  margin-left: 145px;
+}
+
+#menu-bottom {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#menu-bottom a:link {
+  color: #FFF;
+}
+
+#menu-bottom a {
+  text-decoration: none;
+}
+
+#menu-bottom a:hover {
+  color: red;
+}
+
+#menu-bottom a:active {
+  color: yellow;
+}
+
+#menu-bottom a:visited {
+  color: #FFF;
+}
+
+#logo-lg {
+  margin-left: 84px;
+}
+
+#copyright {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  margin-top: 12px;
+  margin-left: 40px;
+  padding-top: 4px;
+}
+
+/* 799px BREAKPOINT */
+
+@media (min-width: 799px) {
+  .wrapper div:nth-child(3) {
+    height: 0px;
+  }
+  #logo {
+    margin-right: 416px;
+  }
+  h1 {
+    font-size: 80px;
+    line-height: 14px;
+    margin-top: 124px;
+  }
+  h3 {
+    font-size: 36px;
+    line-height: 46px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .header {
+    padding: 16px 16px 72px 16px;
+  }
+  article {
+    width: 55%;
+    margin-top: 0;
+    margin-left: 26px;
+    margin-bottom: 0;
+    margin-right: 6px;
+    float: left;
+  }
+  h2 {
+     font-size: 34px;
+     line-height: 40px;  
+  }
+  .story-1 {
+    margin-bottom: 60px;
+  }
+  blockquote {
+    margin-top: 24px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+  .essay-3 {
+    margin-top: 30px;
+  }
+  .dividing-rule {
+    width: 36%;
+    float: right;
+    margin-right: 26px;
+  }
+  .bio {
+    width: 36%;
+    float: right;
+    margin-top: 0;
+    margin-right: 26px;
+  }
+  #bio-photo {
+    margin-top: 0;
+  }
+  .social-link {
+    height: 54px;
+    width: 36%;
+    float: right;
+    margin-right: 26px;
+    margin-bottom: 40px;
+    display: inline-block;
+  }
+  #facebook, #instagram, #twitter {
+    display: inline-block;
+    height: 100%;
+    width: 32.3%;
+    margin: 0 auto;
+    font-size: 15px;
+    padding-top: 18px;
+  }
+  .featured {
+    width: 36%;
+    float: right;
+    margin-top: 14px;
+    margin-right: 26px;
+    margin-bottom: 0;
+  }
+  .featured-article-1, .featured-article-2, .featured-article-3 {
+    height: 145px;
+    margin: 3 auto;
+  }
+  .featured-article-1 {
+    margin-top: 8px;
+    font-size: 36px;
+    line-height: 40px;
+    padding: 30px 60px 30px 30px;
+  }
+  .featured-article-2, .featured-article-3 {
+    font-size: 28px;
+    width: 48.5%;
+  }
+  .featured-article-2 {
+    float: left;
+    padding: 40px 20px 30px 15px;
+  }
+  .featured-article-3 {
+    float: right;
+    padding: 20px 20px 40px 15px;
+  }
+  footer {
+    height: 112px;
+    clear: both;
+    padding-top: 30px;
+  }
+  #logo-lg, #copyright {
+    margin-right: 18px;
+    margin-left: 0;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  .logo-lockup, #menu-bottom {
+    vertical-align: middle;
+    display: inline-block;
+  }
+  .logo-lockup {
+    margin-left: 26px;
+  }
+  #menu-bottom {
+    margin-left: 340px;
+  }
+}
+
+/* 1499px BREAKPOINT */
+
+@media (min-width: 1499px) {
+  #logo {
+    margin-right: 1090px;
+  }
+  h1 {
+    font-size: 96px;
+    line-height: 16px;
+  }
+  h3 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  #bio-photo-sm img {
+    max-height: 40px;
+    max-width: 40px;
+    margin-top: 7px;
+  }
+  #byline-sm {
+    font-size: 16px;
+    margin: 6px 0 0 12px;
+  }
+  .photo {
+    width: 45%;
+  }
+  .photo img {
+    min-height: 320px;
+    min-width: 320px;
+  }
+  .one img {
+    margin-left: 60px;
+  }
+  .two img {
+    margin-left: 31px;
+  }
+  blockquote {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #bio-photo {
+    width: 175px;
+  }
+  #bio-photo img {
+    width: 175px;
+  }
+  #name {
+    font-size: 25px;
+  }
+  #Lennon-desc {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .social-link {
+    height: 72px;
+  }
+  #facebook, #instagram, #twitter {
+    font-size: 18px;
+    padding-top: 24px;
+  }
+  .featured {
+    font-size: 30px;
+    margin-bottom: -2px;
+  }
+  .featured-article-1, .featured-article-2, .featured-article-3 {
+    height: 170px;
+  }
+  .featured-article-1 {
+    margin-top: 12px;
+    font-size: 42px;
+  }
+  .featured-article-2, .featured-article-3 {
+    font-size: 34px;
+    width: 49.3%;
+  }
+  .featured-article-2 {
+    padding: 20px 20px 20px 20px;
+  }
+  .featured-article-3 {
+    padding: 20px 20px 20px 20px;
+  }
+  #menu-bottom {
+    margin-left: 1000px;
+  }
+}
