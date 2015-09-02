@@ -1,3 +1,528 @@
+.wrapper {
+  margin: 0 auto; }
 
+header {
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  padding: 16px 16px 36px 16px;
+  margin: 0 0 28px 0; }
+
+nav {
+  height: 46px; }
+
+logo {
+  float: left;
+  margin-right: 108px;
+  margin-left: 15px; }
+
+menu {
+  float: left;
+  margin-top: 4px;
+  margin-left: 40px;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-weight: 300; }
+
+menu a:link {
+  color: #FFF; }
+
+menu a {
+  text-decoration: none; }
+
+menu a:hover {
+  color: red; }
+
+menu a:active {
+  color: yellow; }
+
+menu a:visited {
+  color: #FFF; }
+
+#search {
+  float: left;
+  margin-top: 4px;
+  margin-left: 40px;
+  margin-right: -35px; }
+
+h1, h3 {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: #FFFFFF; }
+
+h1 {
+  font-size: 54px;
+  line-height: 12px;
+  margin-top: 65px; }
+
+h3 {
+  font-style: italic;
+  font-size: 24px;
+  line-height: 32px;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+article {
+  width: 88%;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 36px;
+  margin-left: auto; }
+
+h2 {
+  font-size: 28px;
+  text-align: left;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: #212736;
+  line-height: 28px;
+  margin: 0; }
+
+bio-photo-sm {
+  overflow: hidden;
+  vertical-align: middle;
+  display: inline-block; }
+
+bio-photo-sm img {
+  border-radius: 50%;
+  max-height: 32px;
+  max-width: 32px;
+  margin-top: 7px; }
+
+byline-sm {
+  font-size: 12px;
+  text-align: left;
+  vertical-align: middle;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  margin: 5px 0 0 10px;
+  display: inline-block; }
+
+essay-1, essay-2, essay-3 {
+  text-align: left;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: #212736;
+  line-height: 28px; }
+
+essay-1 {
+  margin-top: 42px; }
+
+photo {
+  margin-top: 15px;
+  display: inline-block; }
+
+photo img {
+  max-height: 200px;
+  max-width: 200px; }
+
+one img {
+  float: left; }
+
+two img {
+  margin-left: 11px; }
+
+essay-2 {
+  margin-top: 30px; }
+
+blockquote {
+  text-align: left;
+  vertical-align: middle;
+  font-size: 21px;
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  line-height: 33px;
+  color: #887964;
+  margin-top: 48px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  border-left: 1px solid #000;
+  padding-left: 30px; }
+
+essay-3 {
+  margin-top: 48; }
+
+.dividing-rule {
+  height: 1px;
+  width: 88%;
+  background-color: 000;
+  margin: 0 auto; }
+
+bio {
+  width: 88%;
+  margin: auto; }
+
+bio-photo img {
+  border-radius: 50%; }
+
+bio-photo {
+  width: 150px;
+  margin-top: 48px;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto; }
+
+byline {
+  margin-top: 20px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  text-align: center; }
+
+name {
+  font-size: 21px;
+  margin: 0; }
+
+Lennon-desc {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0; }
+
+social-link {
+  height: 170px;
+  width: 88%;
+  font-size: 21px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin: 40px auto; }
+
+social-link a {
+  color: #FFFFFF;
+  text-decoration: none;
+  height: 33%;
+  padding: 15px;
+  margin: 7px auto;
+  display: block;
+  box-sizing: border-box; }
+
+facebook {
+  background-color: #405997; }
+
+instagram {
+  background-color: #427298; }
+
+twitter {
+  background-color: #5DACEA; }
+
+.facebook:hover, .instagram:hover, .twitter:hover {
+  background-color: black; }
+
+.facebook:active, .instagram:active, .twitter:active {
+  background-color: black; }
+
+featured {
+  width: 88%;
+  font-size: 22px;
+  font-family: Roboto, sans-serif;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-bottom: -10px;
+  margin-left: auto;
+  box-sizing: border-box; }
+
+featured p:first-child {
+  font-weight: 300;
+  text-align: center;
+  color: #212736; }
+
+featured-article-1, featured-article-2, featured-article-3 {
+  font-weight: 500;
+  font-size: 60px;
+  text-align: left;
+  margin: 27px auto; }
+
+featured-article-1 a, featured-article-2 a, featured-article-3 a {
+  text-decoration: none;
+  color: #FFF;
+  padding: 38px 90px 38px 40px;
+  display: block;
+  box-sizing: border-box; }
+
+featured-article-1 {
+  background-image: url("images/bluberries.jpg");
+  background-size: cover; }
+
+featured-article-2 {
+  background-image: url("images/san_francisco.jpg");
+  background-size: cover; }
+
+featured-article-3 {
+  background-image: url("images/woods.jpg");
+  background-size: cover; }
+
+footer {
+  height: 196px;
+  background-color: #212736;
+  margin-top: 39px;
+  padding-top: 44px;
+  box-sizing: border-box; }
+
+logo-lockup {
+  width: 50%;
+  margin: 0 auto; }
+
+logo-lg img {
+  width: 20%;
+  margin: 0 auto;
+  display: block; }
+
+copyright {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 4px;
+  margin: 12px auto; }
+
+menu-bottom {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 10px; }
+
+menu-bottom a:link {
+  color: #FFF; }
+
+menu-bottom a {
+  text-decoration: none; }
+
+menu-bottom a:hover {
+  color: red; }
+
+menu-bottom a:active {
+  color: yellow; }
+
+menu-bottom a:visited {
+  color: #FFF; }
+
+/* 799px BREAKPOINT */
+@media (min-width: 799px) {
+  .wrapper div:nth-child(3) {
+    height: 0px; }
+
+  #logo {
+    margin-right: 396px; }
+
+  h1 {
+    font-size: 80px;
+    line-height: 14px;
+    margin-top: 124px; }
+
+  h3 {
+    font-size: 36px;
+    line-height: 46px;
+    margin-left: 60px;
+    margin-right: 60px; }
+
+  .header {
+    padding: 16px 16px 72px 16px; }
+
+  article {
+    width: 55%;
+    margin-top: 0;
+    margin-left: 26px;
+    margin-bottom: 0;
+    margin-right: 6px;
+    float: left; }
+
+  h2 {
+    font-size: 34px;
+    line-height: 40px; }
+
+  story-1 {
+    margin-bottom: 60px; }
+
+  two img {
+    margin-left: 10; }
+
+  blockquote {
+    margin-top: 24px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0; }
+
+  essay-3 {
+    margin-top: 30px; }
+
+  .dividing-rule {
+    width: 36%;
+    float: right;
+    margin-right: 26px; }
+
+  bio {
+    width: 36%;
+    float: right;
+    margin-top: 0;
+    margin-right: 26px; }
+
+  bio-photo {
+    margin-top: 0; }
+
+  social-link {
+    height: 54px;
+    width: 36%;
+    font-size: 15px;
+    float: right;
+    margin-right: 26px;
+    margin-bottom: 40px;
+    display: inline-block; }
+
+  social-link a {
+    display: inline-block;
+    height: 100%;
+    width: 32.3%;
+    margin: 0 auto;
+    padding: 18px 0 0 0; }
+
+  featured {
+    width: 36%;
+    float: right;
+    margin-top: 14px;
+    margin-right: 26px;
+    margin-bottom: 0; }
+
+  featured-article-1, featured-article-2, featured-article-3 {
+    height: 145px;
+    margin: 6px 2px 0 0; }
+
+  featured-article-1 a {
+    margin-top: 8px;
+    font-size: 36px;
+    line-height: 40px;
+    padding: 30px 60px 30px 30px; }
+
+  featured-article-2, featured-article-3 {
+    font-size: 28px;
+    width: 48.5%;
+    display: inline-block; }
+
+  featured-article-1 {
+    width: 100%;
+    float: left; }
+
+  featured-article-2 {
+    float: right; }
+
+  featured-article-2 a {
+    padding: 40px 20px 30px 15px; }
+
+  featured-article-3 a {
+    padding: 20px 20px 40px 15px; }
+
+  footer {
+    height: 112px;
+    clear: both;
+    padding-top: 30px; }
+
+  logo-lg, #copyright {
+    margin-right: 0;
+    margin-left: 0;
+    vertical-align: middle;
+    display: inline-block; }
+
+  logo-lockup, #menu-bottom {
+    vertical-align: middle;
+    display: inline-block; }
+
+  logo-lockup {
+    margin-left: 0; }
+
+  logo-lg img {
+    width: 50%;
+    margin: 0 6px 0 26px; }
+
+  menu-bottom {
+    float: right;
+    margin: 0 28px 40px 60px;
+    padding-top: 14px; } }
+/* 1499px BREAKPOINT */
+@media (min-width: 1499px) {
+  #logo {
+    margin-right: 1090px; }
+
+  h1 {
+    font-size: 96px;
+    line-height: 16px; }
+
+  h3 {
+    font-size: 48px;
+    line-height: 58px; }
+
+  h2 {
+    font-size: 40px;
+    line-height: 52px; }
+
+  #bio-photo-sm img {
+    max-height: 40px;
+    max-width: 40px;
+    margin-top: 7px; }
+
+  #byline-sm {
+    font-size: 16px;
+    margin: 6px 0 0 12px; }
+
+  .photo {
+    width: 45%; }
+
+  .photo img {
+    min-height: 320px;
+    min-width: 320px; }
+
+  .one img {
+    margin-left: 60px; }
+
+  .two img {
+    margin-left: 31px; }
+
+  blockquote {
+    font-size: 28px;
+    line-height: 36px; }
+
+  #bio-photo {
+    width: 175px; }
+
+  #bio-photo img {
+    width: 175px; }
+
+  #name {
+    font-size: 25px; }
+
+  #Lennon-desc {
+    font-size: 16px;
+    line-height: 19px; }
+
+  .social-link {
+    height: 72px; }
+
+  #facebook, #instagram, #twitter {
+    font-size: 18px;
+    padding-top: 24px; }
+
+  featured {
+    font-size: 30px;
+    margin-bottom: -2px; }
+
+  featured-article-1 {
+    margin: 12px 0 0 0; }
+
+  featured-article-1, featured-article-2, featured-article-3 {
+    height: 170px; }
+
+  featured-article-1 a {
+    font-size: 42px; }
+
+  featured-article-2, .featured-article-3 {
+    font-size: 34px;
+    width: 49.1%;
+    margin-right: 0; }
+
+  featured-article-2 a {
+    padding: 20px 20px 20px 20px; }
+
+  featured-article-3 a {
+    padding: 20px 20px 20px 20px; } }
+/*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
