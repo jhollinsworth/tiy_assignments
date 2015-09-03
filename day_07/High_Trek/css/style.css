@@ -2,7 +2,7 @@
   margin: 0 auto; }
 
 header {
-  background-image: url("images/hero.jpg");
+  background-image: url("../images/hero.jpg");
   background-size: cover;
   padding: 16px 16px 36px 16px;
   margin: 0 0 28px 0; }
@@ -10,12 +10,12 @@ header {
 nav {
   height: 46px; }
 
-logo {
+#logo {
   float: left;
   margin-right: 108px;
   margin-left: 15px; }
 
-menu {
+.menu {
   float: left;
   margin-top: 4px;
   margin-left: 40px;
@@ -23,19 +23,19 @@ menu {
   font-family: Roboto, sans-serif;
   font-weight: 300; }
 
-menu a:link {
+.menu a:link {
   color: #FFF; }
 
-menu a {
+.menu a {
   text-decoration: none; }
 
-menu a:hover {
+.menu a:hover {
   color: red; }
 
-menu a:active {
+.menu a:active {
   color: yellow; }
 
-menu a:visited {
+.menu a:visited {
   color: #FFF; }
 
 #search {
@@ -78,18 +78,18 @@ h2 {
   line-height: 28px;
   margin: 0; }
 
-bio-photo-sm {
+#bio-photo-sm {
   overflow: hidden;
   vertical-align: middle;
   display: inline-block; }
 
-bio-photo-sm img {
+#bio-photo-sm img {
   border-radius: 50%;
   max-height: 32px;
   max-width: 32px;
   margin-top: 7px; }
 
-byline-sm {
+#byline-sm {
   font-size: 12px;
   text-align: left;
   vertical-align: middle;
@@ -98,31 +98,31 @@ byline-sm {
   margin: 5px 0 0 10px;
   display: inline-block; }
 
-essay-1, essay-2, essay-3 {
+.essay-1, .essay-2, .essay-3 {
   text-align: left;
   font-family: Roboto, sans-serif;
   font-weight: 300;
   color: #212736;
   line-height: 28px; }
 
-essay-1 {
+.essay-1 {
   margin-top: 42px; }
 
-photo {
+.photo {
   margin-top: 15px;
   display: inline-block; }
 
-photo img {
+.photo img {
   max-height: 200px;
   max-width: 200px; }
 
-one img {
+.one img {
   float: left; }
 
-two img {
+.two img {
   margin-left: 11px; }
 
-essay-2 {
+.essay-2 {
   margin-top: 30px; }
 
 blockquote {
@@ -140,7 +140,7 @@ blockquote {
   border-left: 1px solid #000;
   padding-left: 30px; }
 
-essay-3 {
+.essay-3 {
   margin-top: 48; }
 
 .dividing-rule {
@@ -149,36 +149,36 @@ essay-3 {
   background-color: 000;
   margin: 0 auto; }
 
-bio {
+.bio {
   width: 88%;
   margin: auto; }
 
-bio-photo img {
+#bio-photo img {
   border-radius: 50%; }
 
-bio-photo {
+#bio-photo {
   width: 150px;
   margin-top: 48px;
   margin-right: auto;
   margin-bottom: 0;
   margin-left: auto; }
 
-byline {
+#byline {
   margin-top: 20px;
   font-family: Roboto, sans-serif;
   font-weight: 300;
   text-align: center; }
 
-name {
+#name {
   font-size: 21px;
   margin: 0; }
 
-Lennon-desc {
+#Lennon-desc {
   font-size: 14px;
   line-height: 18px;
   margin: 0; }
 
-social-link {
+.social-link {
   height: 170px;
   width: 88%;
   font-size: 21px;
@@ -187,7 +187,7 @@ social-link {
   text-align: center;
   margin: 40px auto; }
 
-social-link a {
+.social-link a {
   color: #FFFFFF;
   text-decoration: none;
   height: 33%;
@@ -196,22 +196,22 @@ social-link a {
   display: block;
   box-sizing: border-box; }
 
-facebook {
+#facebook {
   background-color: #405997; }
 
-instagram {
+#instagram {
   background-color: #427298; }
 
-twitter {
+#twitter {
   background-color: #5DACEA; }
 
-.facebook:hover, .instagram:hover, .twitter:hover {
+#facebook:hover, #instagram:hover, #twitter:hover {
   background-color: black; }
 
-.facebook:active, .instagram:active, .twitter:active {
+#facebook:active, #instagram:active, #twitter:active {
   background-color: black; }
 
-featured {
+.featured {
   width: 88%;
   font-size: 22px;
   font-family: Roboto, sans-serif;
@@ -221,34 +221,34 @@ featured {
   margin-left: auto;
   box-sizing: border-box; }
 
-featured p:first-child {
+.featured p:first-child {
   font-weight: 300;
   text-align: center;
   color: #212736; }
 
-featured-article-1, featured-article-2, featured-article-3 {
+.featured-article-1, .featured-article-2, .featured-article-3 {
   font-weight: 500;
   font-size: 60px;
   text-align: left;
   margin: 27px auto; }
 
-featured-article-1 a, featured-article-2 a, featured-article-3 a {
+.featured-article-1 a, .featured-article-2 a, .featured-article-3 a {
   text-decoration: none;
   color: #FFF;
   padding: 38px 90px 38px 40px;
   display: block;
   box-sizing: border-box; }
 
-featured-article-1 {
-  background-image: url("images/bluberries.jpg");
+.featured-article-1 {
+  background-image: url("../images/bluberries.jpg");
   background-size: cover; }
 
-featured-article-2 {
-  background-image: url("images/san_francisco.jpg");
+.featured-article-2 {
+  background-image: url("../images/san_francisco.jpg");
   background-size: cover; }
 
-featured-article-3 {
-  background-image: url("images/woods.jpg");
+.featured-article-3 {
+  background-image: url("../images/woods.jpg");
   background-size: cover; }
 
 footer {
@@ -258,16 +258,16 @@ footer {
   padding-top: 44px;
   box-sizing: border-box; }
 
-logo-lockup {
+.logo-lockup {
   width: 50%;
   margin: 0 auto; }
 
-logo-lg img {
+#logo-lg img {
   width: 20%;
   margin: 0 auto;
   display: block; }
 
-copyright {
+#copyright {
   font-family: Roboto, sans-serif;
   font-weight: 300;
   color: #FFFFFF;
@@ -275,26 +275,26 @@ copyright {
   padding-top: 4px;
   margin: 12px auto; }
 
-menu-bottom {
+#menu-bottom {
   font-family: Roboto, sans-serif;
   font-weight: 300;
   color: #FFFFFF;
   text-align: center;
   margin-top: 10px; }
 
-menu-bottom a:link {
+#menu-bottom a:link {
   color: #FFF; }
 
-menu-bottom a {
+#menu-bottom a {
   text-decoration: none; }
 
-menu-bottom a:hover {
+#menu-bottom a:hover {
   color: red; }
 
-menu-bottom a:active {
+#menu-bottom a:active {
   color: yellow; }
 
-menu-bottom a:visited {
+#menu-bottom a:visited {
   color: #FFF; }
 
 /* 799px BREAKPOINT */
@@ -331,10 +331,10 @@ menu-bottom a:visited {
     font-size: 34px;
     line-height: 40px; }
 
-  story-1 {
+  .story-1 {
     margin-bottom: 60px; }
 
-  two img {
+  .two img {
     margin-left: 10; }
 
   blockquote {
@@ -351,16 +351,16 @@ menu-bottom a:visited {
     float: right;
     margin-right: 26px; }
 
-  bio {
+  .bio {
     width: 36%;
     float: right;
     margin-top: 0;
     margin-right: 26px; }
 
-  bio-photo {
+  .bio-photo {
     margin-top: 0; }
 
-  social-link {
+  .social-link {
     height: 54px;
     width: 36%;
     font-size: 15px;
@@ -369,46 +369,46 @@ menu-bottom a:visited {
     margin-bottom: 40px;
     display: inline-block; }
 
-  social-link a {
+  .social-link a {
     display: inline-block;
     height: 100%;
     width: 32.3%;
     margin: 0 auto;
     padding: 18px 0 0 0; }
 
-  featured {
+  .featured {
     width: 36%;
     float: right;
     margin-top: 14px;
     margin-right: 26px;
     margin-bottom: 0; }
 
-  featured-article-1, featured-article-2, featured-article-3 {
+  .featured-article-1, .featured-article-2, .featured-article-3 {
     height: 145px;
     margin: 6px 2px 0 0; }
 
-  featured-article-1 a {
+  .featured-article-1 a {
     margin-top: 8px;
     font-size: 36px;
     line-height: 40px;
     padding: 30px 60px 30px 30px; }
 
-  featured-article-2, featured-article-3 {
+  .featured-article-2, .featured-article-3 {
     font-size: 28px;
     width: 48.5%;
     display: inline-block; }
 
-  featured-article-1 {
+  .featured-article-1 {
     width: 100%;
     float: left; }
 
-  featured-article-2 {
+  .featured-article-2 {
     float: right; }
 
-  featured-article-2 a {
+  .featured-article-2 a {
     padding: 40px 20px 30px 15px; }
 
-  featured-article-3 a {
+  .featured-article-3 a {
     padding: 20px 20px 40px 15px; }
 
   footer {
@@ -416,24 +416,24 @@ menu-bottom a:visited {
     clear: both;
     padding-top: 30px; }
 
-  logo-lg, #copyright {
+  #logo-lg, #copyright {
     margin-right: 0;
     margin-left: 0;
     vertical-align: middle;
     display: inline-block; }
 
-  logo-lockup, #menu-bottom {
+  .logo-lockup, #menu-bottom {
     vertical-align: middle;
     display: inline-block; }
 
-  logo-lockup {
+  .logo-lockup {
     margin-left: 0; }
 
-  logo-lg img {
+  #logo-lg img {
     width: 50%;
     margin: 0 6px 0 26px; }
 
-  menu-bottom {
+  #menu-bottom {
     float: right;
     margin: 0 28px 40px 60px;
     padding-top: 14px; } }
@@ -500,28 +500,28 @@ menu-bottom a:visited {
     font-size: 18px;
     padding-top: 24px; }
 
-  featured {
+  .featured {
     font-size: 30px;
     margin-bottom: -2px; }
 
-  featured-article-1 {
+  .featured-article-1 {
     margin: 12px 0 0 0; }
 
-  featured-article-1, featured-article-2, featured-article-3 {
+  .featured-article-1, featured-article-2, featured-article-3 {
     height: 170px; }
 
-  featured-article-1 a {
+  .featured-article-1 a {
     font-size: 42px; }
 
-  featured-article-2, .featured-article-3 {
+  .featured-article-2, .featured-article-3 {
     font-size: 34px;
     width: 49.1%;
     margin-right: 0; }
 
-  featured-article-2 a {
+  .featured-article-2 a {
     padding: 20px 20px 20px 20px; }
 
-  featured-article-3 a {
+  .featured-article-3 a {
     padding: 20px 20px 20px 20px; } }
 /*# sourceMappingURL=style.css.map */
 
