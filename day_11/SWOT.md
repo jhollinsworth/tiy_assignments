@@ -18,4 +18,4 @@
 
 ##Threats
 * **Competition:** It’s Austin, Texas. Restaurants, especially those that specialize in Tex Mex, are ubiquitous, and while Matt’s food is praiseworthy, it’s far from the best in town. 
-* **Demographic Shift:** It’s still too early to assess the social changes that South Lamar will experience within the next several years but if the neighborhood is truly at the cusp of a new “urbanization”, the perception of Matt’s El Rancho as “staid, boring, and xxxxx” could prove to be damaging.
+* **Demographic Shift:** It’s still too early to assess the social changes that South Lamar will experience within the next several years but if the neighborhood is truly at the cusp of a new “urbanization”, the perception of Matt’s El Rancho as “staid, boring, and old” could prove to be damaging.
