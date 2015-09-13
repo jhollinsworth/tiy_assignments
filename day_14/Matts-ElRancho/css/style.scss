@@ -1,0 +1,390 @@
+@import "colors";
+@import "fonts";
+
+body {
+	background-color: $secondary-color;
+}
+
+.wrapper {
+	margin: 0;
+}
+header {
+	margin: 0 0 1px 0;
+}
+
+.address-phone {
+	margin: .5em 0 0 .625em;
+	display: inline-block;
+	float: left;
+	p {
+		font: {
+			family: $primary-font;
+			size: .95em;
+		}
+		line-height: 1.05em;
+		color: $primary-color;
+		text-align: left;
+		margin: 0;
+	}
+}
+
+nav {
+	width: 0;
+	visibility: hidden;
+	display: inline-block;
+}
+
+ul {
+	width: 0;
+	margin: 0;
+	padding: 0;
+	visibility: inherit;
+}
+
+li {
+	display: inline-block;
+	visibility: inherit;
+}
+
+#menu-box {
+	font-size: 0em;
+	visibility: inherit;
+}
+
+.hours {
+	margin: .5em .625em 0 0;
+	padding: 0;
+	float: right;
+	p {
+		font: {
+			family: $primary-font;
+			size: .95em; 
+		}
+		line-height: 1.05em;
+		color: $primary-color;
+		text-align: right;
+		margin: 0;
+	}
+}
+
+#horiz-rule {
+	width: 100%;
+	height: 3.5px;
+	background-color: $primary-color;
+	display: inline-block;
+	float: left;
+	margin-top: 14px;
+}
+
+.social-media {
+	margin: 14px 28px 0 12px;
+	clear: both;
+	float: left;
+}
+
+#Facebook img, #Twitter img, #Instagram img {
+	max-width: 26px;
+}
+
+#Facebook img, #Twitter img {
+		margin-bottom: 3px;
+}
+
+#sign {
+	float: left;
+	margin-top: -44px;
+	img {
+	max-width: 177px;	
+	}
+}
+
+.menu-more {
+	float: right;
+	margin: 14px 12px 0 0;
+}
+
+#slogan {
+	clear: both;
+	width: 84%;
+	margin: 0 auto 30px auto;
+	p {
+		font: {
+			family: $primary-font;
+			size: 1.375em;
+		}
+		line-height: 1.125em;
+		color: $primary-color;
+		text-align: left;
+		width: 50%;
+		margin: -1.25em 0 0 1.125em;
+		float: left;	
+	}
+	img {
+		max-width: 104px;
+		margin: -21px 0 0 2px;
+		float: left;
+	}
+}
+
+.grill {
+	clear: both;
+	margin: 0 auto;
+	padding: 0 .625em 0 .625em;
+}
+
+h3 {
+	font: {
+		family: $secondary-font;
+		size: 2.325em;
+		weight: $regular;
+	}
+	line-height: 1.75em;
+	color: $primary-color;
+	text-align: center;
+	margin: 0;
+}
+
+h4 {
+	font: {
+		family: $primary-font;
+		size: .95em;
+		weight: $light;
+	}
+	line-height: 1.05em;
+	color: $primary-color;
+	text-align: left;
+	margin: 0;
+}
+
+.menu-grill {
+	margin: 0 0 1em 0;
+	p {
+		font: {
+			family: $body-font;
+			size: .875em;
+			weight: $light;
+		}
+		line-height: 1.125em;
+		color: $primary-color;
+		text-align: left;
+		margin: 0;
+	}
+}
+
+h5 {
+	font: {
+		family: $secondary-font;
+		size: 1.5em;
+		weight: $regular;
+	}
+	line-height: 1.5em;
+	color: $primary-color;
+	text-align: left;
+	margin: 0;
+}
+
+/* 768px BREAKPOINT */
+
+@media (min-width: 768px) {
+	.address-phone {
+		margin: 1em 0 0 1.25em;
+	}
+
+	.address-phone p {
+		font-size: 1.125em;
+		line-height: 1.125em;
+	}
+
+	.hours {
+		margin: 1em 1.25em 0 0;
+		p {
+			font-size: 1.125em;
+			line-height: 1.125em;
+			color: $primary-color;	
+		}
+	}
+
+	#horiz-rule {
+		margin-top: 18px;
+	}
+
+	.social-media {
+		margin: 24px 192px 0 20px;
+		clear: both;
+		float: left;
+	}
+
+	#Facebook img, #Instagram img {
+		max-width: 32px;
+	}
+
+	#Facebook img, #Twitter img {
+		margin-bottom: 6px;
+	}
+
+	#Twitter img {
+		max-width: 34px;
+	}
+
+	#sign {
+		margin-top: -64px;
+		img {
+			max-width: 261px;
+		}
+	}
+
+	.menu-more {
+		float: right;
+		margin: 24px 20px 0 0;
+	}
+
+	#slogan {
+		width: 54%;
+		p {
+		font-size: 2em;
+		line-height: 1.125em;
+		width: 48%;
+		margin: -1.125em 0 0 .875em;
+		}
+		img {
+		max-width: 160px;
+		margin: -24px 0 0 0;
+		}
+	}
+
+	.grill {
+		padding: 1.25em 8.5em 0 8.5em;
+	}
+
+	h3 {
+		font-size: 3.125em;
+		line-height: 1.5em;
+	}
+
+	h4 {
+		font-size: 1.25em;
+		line-height: 1.125em;
+	}
+
+	.menu-grill {
+		margin: 0 0 2em 0;
+		p {
+			font-size: 1em;
+			line-height: 1.125em;
+		}
+	}
+
+	h5 {
+		font-size: 2em;
+		line-height: 1.375em;
+	}
+}
+
+/* 1024px BREAKPOINT */
+
+@media (min-width: 1024px) {
+	.address-phone {
+		margin: 1em 0 0 1.75em;
+		p {
+			font-size: 1.25em;
+			line-height: 1.175em;
+		}
+	}
+
+	nav {
+		width: 40%;
+		visibility: visible;
+		display: inline-block;
+		float: left;
+		margin: 1em 0 0 9.75em;
+	}
+
+	ul {
+		width: 100%;
+		list-style-type: none;
+		visibility: inherit;
+	}
+
+	li {
+		width: 23%;
+		display: inline-block;
+		visibility: inherit;
+	}
+
+	#menu-box {
+		font: {
+			family: $primary-font;
+			size: 1.175em;
+		}
+		background-color: $primary-color;
+		text-align: center;
+		border-radius: 5px;
+		visibility: inherit;
+		margin: 0 .125em 0 .125em;
+		padding: 0 0 .05em 0;
+		a {
+			color: $secondary-color;
+			text-decoration: none;
+			&:hover {
+				color: #DC8C7B;
+			}
+		}
+	}
+
+	.hours {
+		margin: 1em 1.75em 0 0;
+		p {
+			font-size: 1.325em;
+			line-height: 1.205em;
+		}
+	}
+
+	.social-media {
+		margin: 24px 18px 0 28px;
+		clear: both;
+		float: left;
+	}
+
+	.menu-more {
+		width: 0;
+		float: right;
+		margin: 0;
+		visibility: hidden;
+	}
+
+	#slogan {
+		clear: none;
+		float: left;
+		width: 35%;
+		margin: -66px auto 30px auto;
+		p {
+		font-size: 2.125em;
+		width: 100%;
+		margin: 0 0 0 .125em;
+		float: none;	
+		}
+		img {
+		width: 50%;
+		max-width: 174px;
+		display: block;
+		margin: 0 0 0 90px;
+		}
+	}
+
+	.grill {
+		float: right;
+		margin: -7em 6em 0 26em;
+		padding: 0;
+	}
+
+
+
+
+
+
+
+
+
+
+
+}
