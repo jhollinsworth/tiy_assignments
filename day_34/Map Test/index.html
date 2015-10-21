@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Map Test</title>
+	    <link type="text/css" rel="stylesheet" href="css/style.css">
+	    <link type="text/css" rel="stylesheet" href="css/normalize.css">
+	    <script src="https://maps.googleapis.com/maps/api/js"></script>
+	    <script>
+	    	function initialize() {
+	    		var mapCanvas = document.getElementById("map");
+	    		var mapOptions = {
+	    			center: new google.maps.LatLng(29.8848784, -97.6730897),
+	    			zoom: 14,
+	    			mapTypeId: google.maps.MapTypeId.ROADMAP
+	    		}
+
+	    			var styleArray = [
+	    				{
+	    				featureType: "road.local",
+	    				stylers: [
+	    					{hue: "#00d4ff"},
+	    					{saturation: 60},
+	    					{lightness: -20},
+	    					{gamma: 1.5}
+	    				]
+	    				}];
+
+	    		var map = new google.maps.Map(mapCanvas, mapOptions);
+	    	}
+				google.maps.event.addDomListener(window, 'load', initialize);
+	    </script>
+
+	</head>
+	<body>
+
+		<div id="map"></div>
+
+		
+	</body>
+</html>
