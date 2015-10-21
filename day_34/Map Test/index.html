@@ -12,25 +12,28 @@
 	    		var mapOptions = {
 	    			center: new google.maps.LatLng(29.8848784, -97.6730897),
 	    			zoom: 14,
-	    			mapTypeId: google.maps.MapTypeId.ROADMAP
-	    		}
-
-	    			var styleArray = [
+	    			mapTypeId: google.maps.MapTypeId.ROADMAP,
+	    			styles:
+	    			[
 	    				{
-	    				featureType: "road.local",
+	    				elementType: "labels",
+	    				stylers: [
+	    					{visibility: "off"}
+	    					]
+	    				},{
+	    				featureType: "landscape",
 	    				stylers: [
 	    					{hue: "#00d4ff"},
 	    					{saturation: 60},
-	    					{lightness: -20},
-	    					{gamma: 1.5}
-	    				]
-	    				}];
-
+	    					{lightness: -20}
+	    					]
+	    				}
+	    			]
+	    		}
 	    		var map = new google.maps.Map(mapCanvas, mapOptions);
 	    	}
 				google.maps.event.addDomListener(window, 'load', initialize);
 	    </script>
-
 	</head>
 	<body>
 
