@@ -1,0 +1,265 @@
+@import "partials";
+
+.wrapper {
+	position: relative;
+	min-width: 376px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: $primary-color;
+	margin: 20px auto 0 auto;
+	padding: 30px 26px 34px 26px;
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+#lockup {
+	float: right;
+}
+
+h1 {
+	font-family: Helvetica, san-serif;
+	font-size: 1em;
+	font-weight: 400;
+	text-align: left;
+	color: #FFF;
+	margin: .125em 0 0 0;
+}
+
+.side-navigation {
+	padding: 10px 26px 40px 80px;
+	background-color: #999;
+	margin-bottom: 0;
+	a {
+		text-decoration: none;
+		color: #000;
+	&:hover {
+		color: #FFF;
+		}
+	&:active {
+		color: #FFF;
+		}
+	}
+}
+
+#brand-identity, #visual-layout {
+	@extend h1;
+	font-size: 1.25em;
+	font-style: italic;
+	margin: 0;
+	ul {
+		padding: 0;
+		line-height: 2em;
+	}
+	li {
+		font-style: normal;
+		line-height: 2em;
+		list-style-type: none;
+	}
+}
+
+#brand-identity {
+	margin-bottom: 60px;
+}
+
+.guide {
+	background-color: #FFF;
+	padding: 10px 26px 40px 26px; 
+	margin-bottom: 0;
+}
+
+.brand-identity, .visual-layout {
+	background-color: #FFF;
+	@extend h1;
+	color: #888;
+	font-size: 1em;
+	font-weight: 700;
+	p {
+		font-weight: 300;
+	}
+}
+
+#logo, #color, #typefaces, #book-images, #wordclouds, #tabs, #links {
+	background-color: #FFF;
+	margin: 0 20px 80px 0;
+}
+
+h3 {
+	margin-top: 0;
+}
+
+#primary, #primary-ko {
+	font-weight: 700;
+	margin-bottom: 6px;
+}
+
+#color {
+	display: inline-block;
+	p {
+		margin-bottom: 0;
+	}
+}
+
+#primary-blue, #secondary-blue, #accent-salmon, #neutral-gray, #background {
+	width: 220px;
+	margin: 16px auto 6px auto;
+	p {
+		font-weight: 700;
+		margin: 0 0 6px 0;
+		text-align: center;
+	}
+}
+
+.swatch {
+	margin: 6px auto 0 auto;
+	width: 100px;
+	height: 120px;
+}
+
+#primary-blue {
+	.swatch {
+		background-color: #124147;
+	}
+}
+
+#secondary-blue {
+	.swatch {
+		background-color: #73AE96;
+	}
+}
+
+#accent-salmon {
+	.swatch {
+		background-color: #FF645F;
+	}
+}
+
+#neutral-gray {
+	.swatch {
+		background-color: #666;
+	}
+}
+
+#background {
+	.swatch {
+		background-color: #F2F2F2;
+	}
+}
+
+#display-font, #header-font, #body-copy {
+	font-weight: 700;
+}
+
+#goudy-bookletter, #bookletter-sample, #goudy-italic, #italic-sample, #lato, #lato-sample {
+	font-size: 1.125em;
+	color: $primary-color;
+}
+
+#goudy-bookletter, #bookletter-sample {
+	font-family: $bookletter-font;
+}
+
+#goudy-italic, #italic-sample {
+	font-family: $header-font;
+}
+
+#lato, #lato-sample {
+	font-family: $body-copy;
+}
+
+#goudy-bookletter, #goudy-italic, #lato {
+	margin-bottom: 0;
+}
+
+#bookletter-sample, #italic-sample, #lato-sample {
+	margin-top: .5em;
+}
+
+#books {
+	img {
+		margin-right: 12px;
+		vertical-align: top;
+	}
+}
+
+#cloud {
+	height: 360px;
+	width: 95%;
+	max-width: 543px;
+	border: 4px solid #888;
+	background-image: url("../images/WordCloud.jpg");
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+/* 576px BREAKPOINT */
+
+
+@media (min-width: 576px) {
+	header {
+		margin: 40px auto 0 auto;
+		padding: 30px 40px 34px 0;
+	}
+
+	.side-navigation {
+		position: absolute;
+		height: 100%;
+		padding: 0 40px 0 36px; 
+		margin-bottom: 0; 
+	}
+
+	#brand-identity {
+		margin-top: 24px;
+	}
+
+	.guide {
+		padding: 10px 40px 40px 236px;
+	}
+
+	#primary-blue, #secondary-blue, #accent-salmon, #neutral-gray, #background {
+		display: inline-block;
+	}
+}
+
+
+
+
+
+
+/* 976px BREAKPOINT */
+
+
+@media (min-width: 976px) {
+	#primary-box {
+		float: left;
+		#primary {
+			margin-top: 0;
+		}
+	}
+	#bw-box {
+		margin-left: 316px;
+	}
+
+	#goudy-bookletter, #bookletter-sample, #goudy-italic, #italic-sample, #lato, #lato-sample {
+		font-size: 1.25em;
+	}
+
+	#books {
+		img {
+			margin-right: 24px;
+		}
+	}
+
+
+
+}
+
+
